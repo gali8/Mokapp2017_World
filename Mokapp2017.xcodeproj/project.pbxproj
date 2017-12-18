@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6406AFFC1FB89A0C0088FD25 /* icn_detectplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406AFFB1FB89A0C0088FD25 /* icn_detectplane.png */; };
+		6406AFFE1FB8AE570088FD25 /* icn_earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406AFFD1FB8AE570088FD25 /* icn_earth.png */; };
+		6411C80B1FC2336000B078E1 /* icn_spaceinvadersfocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6411C8081FC2335D00B078E1 /* icn_spaceinvadersfocus.png */; };
+		6411C80C1FC2336000B078E1 /* icn_spaceinvadersright.png in Resources */ = {isa = PBXBuildFile; fileRef = 6411C8091FC2335F00B078E1 /* icn_spaceinvadersright.png */; };
+		6411C80D1FC2336000B078E1 /* icn_spaceinvadersleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 6411C80A1FC2336000B078E1 /* icn_spaceinvadersleft.png */; };
+		6424FE8A1FBA1FB000EED609 /* icn_reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 6424FE891FBA1FAF00EED609 /* icn_reset.png */; };
+		6425B6811FBE3C53009570F2 /* spaceInvaders.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6425B6801FBE3C53009570F2 /* spaceInvaders.scnassets */; };
+		6425B6831FBE5DB5009570F2 /* icn_spaceinvaders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6425B6821FBE5DB4009570F2 /* icn_spaceinvaders.jpg */; };
+		6425B6851FBE5E0C009570F2 /* MokappSpaceInvadersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425B6841FBE5E0C009570F2 /* MokappSpaceInvadersExtension.swift */; };
+		643028F81FC3A28A00022E80 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 643028F71FC3A28900022E80 /* Explode.scnp */; };
+		6466781F1FBF68640095EAEB /* spaceinvaders_fastinvader1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 646678191FBF68630095EAEB /* spaceinvaders_fastinvader1.wav */; };
+		646678201FBF68640095EAEB /* spaceinvaders_fastinvader2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6466781A1FBF68630095EAEB /* spaceinvaders_fastinvader2.wav */; };
+		646678211FBF68640095EAEB /* spaceinvaders_invaderkilled.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6466781B1FBF68630095EAEB /* spaceinvaders_invaderkilled.wav */; };
+		646678221FBF68640095EAEB /* spaceinvaders_explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6466781C1FBF68640095EAEB /* spaceinvaders_explosion.wav */; };
+		646678231FBF68640095EAEB /* spaceinvaders_fastinvader3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6466781D1FBF68640095EAEB /* spaceinvaders_fastinvader3.wav */; };
+		646678241FBF68640095EAEB /* spaceinvaders_shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6466781E1FBF68640095EAEB /* spaceinvaders_shoot.wav */; };
+		6485A8021FB24E6A003AC8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6485A8011FB24E6A003AC8CC /* AppDelegate.swift */; };
+		6485A8041FB24E6A003AC8CC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6485A8031FB24E6A003AC8CC /* art.scnassets */; };
+		6485A8061FB24E6A003AC8CC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6485A8051FB24E6A003AC8CC /* GameViewController.swift */; };
+		6485A8091FB24E6A003AC8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6485A8071FB24E6A003AC8CC /* Main.storyboard */; };
+		6485A80B1FB24E6A003AC8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6485A80A1FB24E6A003AC8CC /* Assets.xcassets */; };
+		6485A80E1FB24E6A003AC8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6485A80C1FB24E6A003AC8CC /* LaunchScreen.storyboard */; };
+		6485A8161FB25026003AC8CC /* ARKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6485A8151FB25026003AC8CC /* ARKitExtension.swift */; };
+		6485A81E1FB257E3003AC8CC /* tucano.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6485A81D1FB257E3003AC8CC /* tucano.scnassets */; };
+		64A55F891FB74711009359C9 /* icn_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A55F881FB74711009359C9 /* icn_box.png */; };
+		64A55F8B1FB749D4009359C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A55F8A1FB749D4009359C9 /* UIColorExtension.swift */; };
+		64A55F8E1FB74CFE009359C9 /* icn_box_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A55F8C1FB74CFE009359C9 /* icn_box_light.png */; };
+		64A55F8F1FB74CFE009359C9 /* icn_box_gravity.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A55F8D1FB74CFE009359C9 /* icn_box_gravity.png */; };
+		64A55F911FB864F0009359C9 /* SCNVector3Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A55F901FB864F0009359C9 /* SCNVector3Extension.swift */; };
+		64A55F931FB8652C009359C9 /* ARSCNViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A55F921FB8652C009359C9 /* ARSCNViewExtension.swift */; };
+		64A55F971FB8720F009359C9 /* earth.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A55F961FB8720E009359C9 /* earth.scnassets */; };
+		64AA7CFE1FB631B900F6B347 /* strangerThingsSigla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 64AA7CFD1FB631B900F6B347 /* strangerThingsSigla.mp4 */; };
+		64AA7D001FB70AD300F6B347 /* MokappARKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA7CFF1FB70AD300F6B347 /* MokappARKitExtension.swift */; };
+		64AA7D031FB70F0100F6B347 /* icn_tucano.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AA7D021FB70F0100F6B347 /* icn_tucano.png */; };
+		64AA7D051FB70FF100F6B347 /* icn_strangerthings.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AA7D041FB70FF100F6B347 /* icn_strangerthings.png */; };
+		64AA7D091FB717ED00F6B347 /* icn_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AA7D081FB717EC00F6B347 /* icn_menu.png */; };
+		64AA7D0B1FB71BC200F6B347 /* SCNNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA7D0A1FB71BC200F6B347 /* SCNNodeExtension.swift */; };
+		64AB4F6D1FB742A300D8DB8E /* icn_statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AB4F6B1FB742A200D8DB8E /* icn_statistics.png */; };
+		64AB4F6E1FB742A300D8DB8E /* icn_options.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AB4F6C1FB742A300D8DB8E /* icn_options.png */; };
+		64C298581FC4D05300933451 /* icn_planedetection.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C298571FC4D05200933451 /* icn_planedetection.png */; };
+		64C4ED8E1FB60A57008796E6 /* UpsideDownParticleTextureNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C4ED8D1FB60A57008796E6 /* UpsideDownParticleTextureNew.png */; };
+		64C4ED901FB61F5F008796E6 /* upsideDown.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C4ED8F1FB61F5F008796E6 /* upsideDown.scnassets */; };
+		64DD36BF1FB4CE9C0038DE97 /* UpsideDownParticle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 64DD36BD1FB4CE9C0038DE97 /* UpsideDownParticle.scnp */; };
+		64DD36C01FB4CE9C0038DE97 /* UpsideDownParticleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DD36BE1FB4CE9C0038DE97 /* UpsideDownParticleTexture.png */; };
+		64DD36C21FB4D0DC0038DE97 /* ParticleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD36C11FB4D0DC0038DE97 /* ParticleHelper.swift */; };
+		64DD36C51FB5B71C0038DE97 /* UpsideDownStars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 64DD36C31FB5B71C0038DE97 /* UpsideDownStars.scnp */; };
+		64DD36C61FB5B71C0038DE97 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DD36C41FB5B71C0038DE97 /* star.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6406AFFB1FB89A0C0088FD25 /* icn_detectplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_detectplane.png; sourceTree = "<group>"; };
+		6406AFFD1FB8AE570088FD25 /* icn_earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_earth.png; sourceTree = "<group>"; };
+		6411C8081FC2335D00B078E1 /* icn_spaceinvadersfocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_spaceinvadersfocus.png; sourceTree = "<group>"; };
+		6411C8091FC2335F00B078E1 /* icn_spaceinvadersright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_spaceinvadersright.png; sourceTree = "<group>"; };
+		6411C80A1FC2336000B078E1 /* icn_spaceinvadersleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_spaceinvadersleft.png; sourceTree = "<group>"; };
+		6424FE891FBA1FAF00EED609 /* icn_reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_reset.png; sourceTree = "<group>"; };
+		6425B6801FBE3C53009570F2 /* spaceInvaders.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = spaceInvaders.scnassets; sourceTree = "<group>"; };
+		6425B6821FBE5DB4009570F2 /* icn_spaceinvaders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icn_spaceinvaders.jpg; sourceTree = "<group>"; };
+		6425B6841FBE5E0C009570F2 /* MokappSpaceInvadersExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokappSpaceInvadersExtension.swift; sourceTree = "<group>"; };
+		643028F71FC3A28900022E80 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
+		646678191FBF68630095EAEB /* spaceinvaders_fastinvader1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_fastinvader1.wav; sourceTree = "<group>"; };
+		6466781A1FBF68630095EAEB /* spaceinvaders_fastinvader2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_fastinvader2.wav; sourceTree = "<group>"; };
+		6466781B1FBF68630095EAEB /* spaceinvaders_invaderkilled.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_invaderkilled.wav; sourceTree = "<group>"; };
+		6466781C1FBF68640095EAEB /* spaceinvaders_explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_explosion.wav; sourceTree = "<group>"; };
+		6466781D1FBF68640095EAEB /* spaceinvaders_fastinvader3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_fastinvader3.wav; sourceTree = "<group>"; };
+		6466781E1FBF68640095EAEB /* spaceinvaders_shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_shoot.wav; sourceTree = "<group>"; };
+		6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mokapp2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6485A8011FB24E6A003AC8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6485A8031FB24E6A003AC8CC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6485A8051FB24E6A003AC8CC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6485A8081FB24E6A003AC8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6485A80A1FB24E6A003AC8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6485A80D1FB24E6A003AC8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6485A80F1FB24E6A003AC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6485A8151FB25026003AC8CC /* ARKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKitExtension.swift; sourceTree = "<group>"; };
+		6485A81D1FB257E3003AC8CC /* tucano.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = tucano.scnassets; sourceTree = "<group>"; };
+		64A55F881FB74711009359C9 /* icn_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_box.png; sourceTree = "<group>"; };
+		64A55F8A1FB749D4009359C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		64A55F8C1FB74CFE009359C9 /* icn_box_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_box_light.png; sourceTree = "<group>"; };
+		64A55F8D1FB74CFE009359C9 /* icn_box_gravity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_box_gravity.png; sourceTree = "<group>"; };
+		64A55F901FB864F0009359C9 /* SCNVector3Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extension.swift; sourceTree = "<group>"; };
+		64A55F921FB8652C009359C9 /* ARSCNViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNViewExtension.swift; sourceTree = "<group>"; };
+		64A55F961FB8720E009359C9 /* earth.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = earth.scnassets; sourceTree = "<group>"; };
+		64AA7CFD1FB631B900F6B347 /* strangerThingsSigla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = strangerThingsSigla.mp4; sourceTree = "<group>"; };
+		64AA7CFF1FB70AD300F6B347 /* MokappARKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokappARKitExtension.swift; sourceTree = "<group>"; };
+		64AA7D021FB70F0100F6B347 /* icn_tucano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_tucano.png; sourceTree = "<group>"; };
+		64AA7D041FB70FF100F6B347 /* icn_strangerthings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_strangerthings.png; sourceTree = "<group>"; };
+		64AA7D081FB717EC00F6B347 /* icn_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_menu.png; sourceTree = "<group>"; };
+		64AA7D0A1FB71BC200F6B347 /* SCNNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtension.swift; sourceTree = "<group>"; };
+		64AB4F6B1FB742A200D8DB8E /* icn_statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_statistics.png; sourceTree = "<group>"; };
+		64AB4F6C1FB742A300D8DB8E /* icn_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_options.png; sourceTree = "<group>"; };
+		64C298571FC4D05200933451 /* icn_planedetection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_planedetection.png; sourceTree = "<group>"; };
+		64C4ED8D1FB60A57008796E6 /* UpsideDownParticleTextureNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpsideDownParticleTextureNew.png; sourceTree = "<group>"; };
+		64C4ED8F1FB61F5F008796E6 /* upsideDown.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = upsideDown.scnassets; sourceTree = "<group>"; };
+		64DD36BD1FB4CE9C0038DE97 /* UpsideDownParticle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = UpsideDownParticle.scnp; sourceTree = "<group>"; };
+		64DD36BE1FB4CE9C0038DE97 /* UpsideDownParticleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpsideDownParticleTexture.png; sourceTree = "<group>"; };
+		64DD36C11FB4D0DC0038DE97 /* ParticleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleHelper.swift; sourceTree = "<group>"; };
+		64DD36C31FB5B71C0038DE97 /* UpsideDownStars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = UpsideDownStars.scnp; sourceTree = "<group>"; };
+		64DD36C41FB5B71C0038DE97 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6485A7FB1FB24E6A003AC8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		646678181FBF681B0095EAEB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6466781C1FBF68640095EAEB /* spaceinvaders_explosion.wav */,
+				646678191FBF68630095EAEB /* spaceinvaders_fastinvader1.wav */,
+				6466781A1FBF68630095EAEB /* spaceinvaders_fastinvader2.wav */,
+				6466781D1FBF68640095EAEB /* spaceinvaders_fastinvader3.wav */,
+				6466781B1FBF68630095EAEB /* spaceinvaders_invaderkilled.wav */,
+				6466781E1FBF68640095EAEB /* spaceinvaders_shoot.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		6485A7F51FB24E6A003AC8CC = {
+			isa = PBXGroup;
+			children = (
+				6485A8001FB24E6A003AC8CC /* Mokapp2017 */,
+			);
+			sourceTree = "<group>";
+		};
+		6485A7FF1FB24E6A003AC8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6485A8001FB24E6A003AC8CC /* Mokapp2017 */ = {
+			isa = PBXGroup;
+			children = (
+				646678181FBF681B0095EAEB /* Sounds */,
+				64AA7D011FB70EF300F6B347 /* Icons */,
+				64DD36BC1FB4CE700038DE97 /* Particles */,
+				6485A8011FB24E6A003AC8CC /* AppDelegate.swift */,
+				64AA7CFD1FB631B900F6B347 /* strangerThingsSigla.mp4 */,
+				64C4ED8F1FB61F5F008796E6 /* upsideDown.scnassets */,
+				6485A81D1FB257E3003AC8CC /* tucano.scnassets */,
+				6485A8031FB24E6A003AC8CC /* art.scnassets */,
+				64A55F961FB8720E009359C9 /* earth.scnassets */,
+				6425B6801FBE3C53009570F2 /* spaceInvaders.scnassets */,
+				6485A8051FB24E6A003AC8CC /* GameViewController.swift */,
+				6485A8151FB25026003AC8CC /* ARKitExtension.swift */,
+				64A55F921FB8652C009359C9 /* ARSCNViewExtension.swift */,
+				64AA7CFF1FB70AD300F6B347 /* MokappARKitExtension.swift */,
+				6425B6841FBE5E0C009570F2 /* MokappSpaceInvadersExtension.swift */,
+				64AA7D0A1FB71BC200F6B347 /* SCNNodeExtension.swift */,
+				64A55F901FB864F0009359C9 /* SCNVector3Extension.swift */,
+				64A55F8A1FB749D4009359C9 /* UIColorExtension.swift */,
+				6485A8071FB24E6A003AC8CC /* Main.storyboard */,
+				6485A80A1FB24E6A003AC8CC /* Assets.xcassets */,
+				6485A80C1FB24E6A003AC8CC /* LaunchScreen.storyboard */,
+				6485A80F1FB24E6A003AC8CC /* Info.plist */,
+				6485A7FF1FB24E6A003AC8CC /* Products */,
+			);
+			path = Mokapp2017;
+			sourceTree = "<group>";
+		};
+		64AA7D011FB70EF300F6B347 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				64C298571FC4D05200933451 /* icn_planedetection.png */,
+				6425B6821FBE5DB4009570F2 /* icn_spaceinvaders.jpg */,
+				64AA7D041FB70FF100F6B347 /* icn_strangerthings.png */,
+				64AA7D021FB70F0100F6B347 /* icn_tucano.png */,
+				64AB4F6C1FB742A300D8DB8E /* icn_options.png */,
+				6406AFFD1FB8AE570088FD25 /* icn_earth.png */,
+				6406AFFB1FB89A0C0088FD25 /* icn_detectplane.png */,
+				64AB4F6B1FB742A200D8DB8E /* icn_statistics.png */,
+				64A55F881FB74711009359C9 /* icn_box.png */,
+				64A55F8D1FB74CFE009359C9 /* icn_box_gravity.png */,
+				64A55F8C1FB74CFE009359C9 /* icn_box_light.png */,
+				64AA7D081FB717EC00F6B347 /* icn_menu.png */,
+				6424FE891FBA1FAF00EED609 /* icn_reset.png */,
+				6411C8081FC2335D00B078E1 /* icn_spaceinvadersfocus.png */,
+				6411C80A1FC2336000B078E1 /* icn_spaceinvadersleft.png */,
+				6411C8091FC2335F00B078E1 /* icn_spaceinvadersright.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		64DD36BC1FB4CE700038DE97 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				64DD36C11FB4D0DC0038DE97 /* ParticleHelper.swift */,
+				64DD36BE1FB4CE9C0038DE97 /* UpsideDownParticleTexture.png */,
+				64C4ED8D1FB60A57008796E6 /* UpsideDownParticleTextureNew.png */,
+				64DD36BD1FB4CE9C0038DE97 /* UpsideDownParticle.scnp */,
+				64DD36C41FB5B71C0038DE97 /* star.png */,
+				643028F71FC3A28900022E80 /* Explode.scnp */,
+				64DD36C31FB5B71C0038DE97 /* UpsideDownStars.scnp */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6485A7FD1FB24E6A003AC8CC /* Mokapp2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6485A8121FB24E6A003AC8CC /* Build configuration list for PBXNativeTarget "Mokapp2017" */;
+			buildPhases = (
+				6485A7FA1FB24E6A003AC8CC /* Sources */,
+				6485A7FB1FB24E6A003AC8CC /* Frameworks */,
+				6485A7FC1FB24E6A003AC8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mokapp2017;
+			productName = Mokapp2017;
+			productReference = 6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6485A7F61FB24E6A003AC8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nexor;
+				TargetAttributes = {
+					6485A7FD1FB24E6A003AC8CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6485A7F91FB24E6A003AC8CC /* Build configuration list for PBXProject "Mokapp2017" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6485A7F51FB24E6A003AC8CC;
+			productRefGroup = 6485A7FF1FB24E6A003AC8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6485A7FD1FB24E6A003AC8CC /* Mokapp2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6485A7FC1FB24E6A003AC8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646678221FBF68640095EAEB /* spaceinvaders_explosion.wav in Resources */,
+				646678211FBF68640095EAEB /* spaceinvaders_invaderkilled.wav in Resources */,
+				6411C80C1FC2336000B078E1 /* icn_spaceinvadersright.png in Resources */,
+				6425B6811FBE3C53009570F2 /* spaceInvaders.scnassets in Resources */,
+				64A55F8E1FB74CFE009359C9 /* icn_box_light.png in Resources */,
+				6424FE8A1FBA1FB000EED609 /* icn_reset.png in Resources */,
+				6425B6831FBE5DB5009570F2 /* icn_spaceinvaders.jpg in Resources */,
+				646678241FBF68640095EAEB /* spaceinvaders_shoot.wav in Resources */,
+				6406AFFC1FB89A0C0088FD25 /* icn_detectplane.png in Resources */,
+				6485A8041FB24E6A003AC8CC /* art.scnassets in Resources */,
+				64AA7CFE1FB631B900F6B347 /* strangerThingsSigla.mp4 in Resources */,
+				64C4ED901FB61F5F008796E6 /* upsideDown.scnassets in Resources */,
+				64AA7D091FB717ED00F6B347 /* icn_menu.png in Resources */,
+				646678231FBF68640095EAEB /* spaceinvaders_fastinvader3.wav in Resources */,
+				64A55F8F1FB74CFE009359C9 /* icn_box_gravity.png in Resources */,
+				64AB4F6E1FB742A300D8DB8E /* icn_options.png in Resources */,
+				6485A80E1FB24E6A003AC8CC /* LaunchScreen.storyboard in Resources */,
+				64AA7D031FB70F0100F6B347 /* icn_tucano.png in Resources */,
+				64DD36C61FB5B71C0038DE97 /* star.png in Resources */,
+				6485A80B1FB24E6A003AC8CC /* Assets.xcassets in Resources */,
+				646678201FBF68640095EAEB /* spaceinvaders_fastinvader2.wav in Resources */,
+				6411C80B1FC2336000B078E1 /* icn_spaceinvadersfocus.png in Resources */,
+				64AA7D051FB70FF100F6B347 /* icn_strangerthings.png in Resources */,
+				64C298581FC4D05300933451 /* icn_planedetection.png in Resources */,
+				64A55F971FB8720F009359C9 /* earth.scnassets in Resources */,
+				6466781F1FBF68640095EAEB /* spaceinvaders_fastinvader1.wav in Resources */,
+				64AB4F6D1FB742A300D8DB8E /* icn_statistics.png in Resources */,
+				6485A81E1FB257E3003AC8CC /* tucano.scnassets in Resources */,
+				64DD36C01FB4CE9C0038DE97 /* UpsideDownParticleTexture.png in Resources */,
+				64C4ED8E1FB60A57008796E6 /* UpsideDownParticleTextureNew.png in Resources */,
+				643028F81FC3A28A00022E80 /* Explode.scnp in Resources */,
+				64A55F891FB74711009359C9 /* icn_box.png in Resources */,
+				64DD36C51FB5B71C0038DE97 /* UpsideDownStars.scnp in Resources */,
+				6411C80D1FC2336000B078E1 /* icn_spaceinvadersleft.png in Resources */,
+				6406AFFE1FB8AE570088FD25 /* icn_earth.png in Resources */,
+				6485A8091FB24E6A003AC8CC /* Main.storyboard in Resources */,
+				64DD36BF1FB4CE9C0038DE97 /* UpsideDownParticle.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6485A7FA1FB24E6A003AC8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AA7D0B1FB71BC200F6B347 /* SCNNodeExtension.swift in Sources */,
+				64A55F931FB8652C009359C9 /* ARSCNViewExtension.swift in Sources */,
+				6425B6851FBE5E0C009570F2 /* MokappSpaceInvadersExtension.swift in Sources */,
+				64DD36C21FB4D0DC0038DE97 /* ParticleHelper.swift in Sources */,
+				6485A8161FB25026003AC8CC /* ARKitExtension.swift in Sources */,
+				64A55F911FB864F0009359C9 /* SCNVector3Extension.swift in Sources */,
+				64A55F8B1FB749D4009359C9 /* UIColorExtension.swift in Sources */,
+				6485A8061FB24E6A003AC8CC /* GameViewController.swift in Sources */,
+				64AA7D001FB70AD300F6B347 /* MokappARKitExtension.swift in Sources */,
+				6485A8021FB24E6A003AC8CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6485A8071FB24E6A003AC8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6485A8081FB24E6A003AC8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6485A80C1FB24E6A003AC8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6485A80D1FB24E6A003AC8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6485A8101FB24E6A003AC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6485A8111FB24E6A003AC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6485A8131FB24E6A003AC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44R9293238;
+				INFOPLIST_FILE = Mokapp2017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.Mokapp2017World;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6485A8141FB24E6A003AC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44R9293238;
+				INFOPLIST_FILE = Mokapp2017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.Mokapp2017World;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6485A7F91FB24E6A003AC8CC /* Build configuration list for PBXProject "Mokapp2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6485A8101FB24E6A003AC8CC /* Debug */,
+				6485A8111FB24E6A003AC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6485A8121FB24E6A003AC8CC /* Build configuration list for PBXNativeTarget "Mokapp2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6485A8131FB24E6A003AC8CC /* Debug */,
+				6485A8141FB24E6A003AC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6485A7F61FB24E6A003AC8CC /* Project object */;
+}

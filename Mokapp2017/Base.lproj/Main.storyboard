@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d4X-eo-5IS">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="f1T-WZ-MfG">
+            <objects>
+                <viewController storyboardIdentifier="GameViewControllerScene" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d4X-eo-5IS" customClass="GameViewController" customModule="Mokapp2017" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Jk-Q3-CVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="6cV-cA-ujm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ehT-GF-OgC">
+                        <rect key="frame" x="0.0" y="0.0" width="550" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALw-cj-tPP">
+                                <rect key="frame" x="0.0" y="0.0" width="550" height="812"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="nse-yG-JH7">
+                                <rect key="frame" x="72" y="689" width="408" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKu-Mc-8ph">
+                                <rect key="frame" x="0.0" y="719" width="550" height="44"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXd-MC-MN1">
+                                        <rect key="frame" x="0.0" y="0.0" width="507" height="44"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0i-hm-fKF">
+                                                <rect key="frame" x="53" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="B7w-m7-R1Q"/>
+                                                    <constraint firstAttribute="width" constant="38" id="OAB-Z8-1xZ"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_options.png"/>
+                                                <connections>
+                                                    <action selector="onDebugOptions:" destination="d4X-eo-5IS" eventType="touchUpInside" id="iB7-Ws-3eG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFC-bc-ufk">
+                                                <rect key="frame" x="1" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="5vd-Mg-fps"/>
+                                                    <constraint firstAttribute="height" constant="38" id="uSc-gt-XIX"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_statistics.png"/>
+                                                <connections>
+                                                    <action selector="onStatistics:" destination="d4X-eo-5IS" eventType="touchUpInside" id="ZgH-R7-t6e"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ3-Bb-vrS">
+                                                <rect key="frame" x="400" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="vCl-YN-W7E"/>
+                                                    <constraint firstAttribute="width" constant="38" id="xP8-1r-1kh"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_strangerthings.png"/>
+                                                <connections>
+                                                    <action selector="onUpsideDown:" destination="d4X-eo-5IS" eventType="touchUpInside" id="1Wd-bM-j5q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKL-rG-dEo">
+                                                <rect key="frame" x="457" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="dzB-N8-V8s"/>
+                                                    <constraint firstAttribute="height" constant="38" id="gq6-ER-z4O"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_spaceinvaders.jpg"/>
+                                                <connections>
+                                                    <action selector="onSpaceInvaders:" destination="d4X-eo-5IS" eventType="touchUpInside" id="abQ-OX-Nfr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKv-Z8-cbG">
+                                                <rect key="frame" x="338" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="8yb-FZ-jTI"/>
+                                                    <constraint firstAttribute="height" constant="38" id="Z8O-aI-WvM"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_tucano.png"/>
+                                                <connections>
+                                                    <action selector="onTucano:" destination="d4X-eo-5IS" eventType="touchUpInside" id="luu-nW-fqR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPF-IN-UUr">
+                                                <rect key="frame" x="105" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="5e4-2b-TuZ"/>
+                                                    <constraint firstAttribute="width" constant="38" id="ArW-Pr-SNF"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_box.png"/>
+                                                <connections>
+                                                    <action selector="onShape:" destination="d4X-eo-5IS" eventType="touchUpInside" id="zKX-B8-DCJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSN-j2-H3q">
+                                                <rect key="frame" x="157" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="cuS-xS-isI"/>
+                                                    <constraint firstAttribute="width" constant="38" id="hya-fG-RUy"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_box_light.png"/>
+                                                <connections>
+                                                    <action selector="onShapeLight:" destination="d4X-eo-5IS" eventType="touchUpInside" id="HEa-TM-i5V"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="951-Mp-W4d">
+                                                <rect key="frame" x="219" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="9Ik-Jl-yTG"/>
+                                                    <constraint firstAttribute="height" constant="38" id="Joa-dH-V2I"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_box_gravity.png"/>
+                                                <connections>
+                                                    <action selector="onShapeGravity:" destination="d4X-eo-5IS" eventType="touchUpInside" id="viI-La-qfx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXD-tY-BXI">
+                                                <rect key="frame" x="281" y="3" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="8xI-yJ-Fdp"/>
+                                                    <constraint firstAttribute="height" constant="38" id="sS2-w6-i8H"/>
+                                                </constraints>
+                                                <state key="normal" image="icn_earth.png"/>
+                                                <connections>
+                                                    <action selector="onEarth:" destination="d4X-eo-5IS" eventType="touchUpInside" id="JG6-ga-7uq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="XPF-IN-UUr" firstAttribute="leading" secondItem="c0i-hm-fKF" secondAttribute="trailing" constant="14" id="1Y9-15-bt0"/>
+                                            <constraint firstItem="zSN-j2-H3q" firstAttribute="top" secondItem="XPF-IN-UUr" secondAttribute="top" id="5DD-vK-rmW"/>
+                                            <constraint firstAttribute="trailing" secondItem="kKL-rG-dEo" secondAttribute="trailing" constant="12" id="5fk-Gn-xPs"/>
+                                            <constraint firstItem="c0i-hm-fKF" firstAttribute="bottom" secondItem="SFC-bc-ufk" secondAttribute="bottom" id="APc-Ug-ICw"/>
+                                            <constraint firstItem="zSN-j2-H3q" firstAttribute="bottom" secondItem="XPF-IN-UUr" secondAttribute="bottom" id="Aby-N9-om2"/>
+                                            <constraint firstItem="951-Mp-W4d" firstAttribute="bottom" secondItem="zSN-j2-H3q" secondAttribute="bottom" id="D7c-eZ-26l"/>
+                                            <constraint firstItem="kKL-rG-dEo" firstAttribute="leading" secondItem="nQ3-Bb-vrS" secondAttribute="trailing" constant="19" id="GSQ-8M-hv9"/>
+                                            <constraint firstItem="nQ3-Bb-vrS" firstAttribute="bottom" secondItem="SFC-bc-ufk" secondAttribute="bottom" id="Gtn-3c-va5"/>
+                                            <constraint firstItem="zSN-j2-H3q" firstAttribute="leading" secondItem="XPF-IN-UUr" secondAttribute="trailing" constant="14" id="NcR-p3-oAb"/>
+                                            <constraint firstItem="kKL-rG-dEo" firstAttribute="bottom" secondItem="nQ3-Bb-vrS" secondAttribute="bottom" id="Njz-Qz-wZe"/>
+                                            <constraint firstItem="fXD-tY-BXI" firstAttribute="leading" secondItem="951-Mp-W4d" secondAttribute="trailing" constant="24" id="O2R-7A-PjA"/>
+                                            <constraint firstItem="SFC-bc-ufk" firstAttribute="top" secondItem="bXd-MC-MN1" secondAttribute="top" constant="3" id="O7t-RS-QrG"/>
+                                            <constraint firstItem="XPF-IN-UUr" firstAttribute="top" secondItem="c0i-hm-fKF" secondAttribute="top" id="Txp-Be-zqo"/>
+                                            <constraint firstItem="c0i-hm-fKF" firstAttribute="leading" secondItem="SFC-bc-ufk" secondAttribute="trailing" constant="14" id="X5k-hP-GzR"/>
+                                            <constraint firstItem="fXD-tY-BXI" firstAttribute="bottom" secondItem="XPF-IN-UUr" secondAttribute="bottom" id="ZoG-HD-Lsp"/>
+                                            <constraint firstItem="WKv-Z8-cbG" firstAttribute="bottom" secondItem="SFC-bc-ufk" secondAttribute="bottom" id="aGM-Dm-Uzn"/>
+                                            <constraint firstItem="SFC-bc-ufk" firstAttribute="leading" secondItem="bXd-MC-MN1" secondAttribute="leading" constant="1" id="dWs-R8-fcT"/>
+                                            <constraint firstItem="951-Mp-W4d" firstAttribute="top" secondItem="zSN-j2-H3q" secondAttribute="top" id="dlC-YF-khw"/>
+                                            <constraint firstItem="nQ3-Bb-vrS" firstAttribute="top" secondItem="SFC-bc-ufk" secondAttribute="top" id="faV-Zx-LAz"/>
+                                            <constraint firstItem="WKv-Z8-cbG" firstAttribute="leading" secondItem="fXD-tY-BXI" secondAttribute="trailing" constant="19" id="hny-iP-lTl"/>
+                                            <constraint firstItem="c0i-hm-fKF" firstAttribute="top" secondItem="SFC-bc-ufk" secondAttribute="top" id="kmB-Nv-4kG"/>
+                                            <constraint firstItem="951-Mp-W4d" firstAttribute="leading" secondItem="zSN-j2-H3q" secondAttribute="trailing" constant="24" id="krm-uc-YLl"/>
+                                            <constraint firstAttribute="bottom" secondItem="SFC-bc-ufk" secondAttribute="bottom" constant="3" id="l0A-FK-t6w"/>
+                                            <constraint firstItem="nQ3-Bb-vrS" firstAttribute="leading" secondItem="WKv-Z8-cbG" secondAttribute="trailing" constant="24" id="lyC-O4-gAn"/>
+                                            <constraint firstItem="XPF-IN-UUr" firstAttribute="bottom" secondItem="c0i-hm-fKF" secondAttribute="bottom" id="qfq-YM-il4"/>
+                                            <constraint firstItem="kKL-rG-dEo" firstAttribute="top" secondItem="nQ3-Bb-vrS" secondAttribute="top" id="w76-zo-KwJ"/>
+                                            <constraint firstItem="fXD-tY-BXI" firstAttribute="top" secondItem="XPF-IN-UUr" secondAttribute="top" id="wf9-oR-vzf"/>
+                                            <constraint firstItem="WKv-Z8-cbG" firstAttribute="top" secondItem="SFC-bc-ufk" secondAttribute="top" id="zjS-64-HNJ"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fL-LZ-HOr">
+                                        <rect key="frame" x="516" y="11" width="28" height="28"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="UAm-GT-pQx"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.72941176470000002" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="icn_planedetection.png"/>
+                                        <connections>
+                                            <action selector="onDisablePlaneDetectionColor:" destination="d4X-eo-5IS" eventType="touchUpInside" id="H0r-oL-P35"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="7fL-LZ-HOr" firstAttribute="top" secondItem="MKu-Mc-8ph" secondAttribute="top" constant="11" id="DiH-at-5tY"/>
+                                    <constraint firstItem="7fL-LZ-HOr" firstAttribute="leading" secondItem="bXd-MC-MN1" secondAttribute="trailing" constant="9" id="Gar-pY-eRS"/>
+                                    <constraint firstAttribute="bottom" secondItem="bXd-MC-MN1" secondAttribute="bottom" id="IQv-sX-ZSh"/>
+                                    <constraint firstAttribute="bottom" secondItem="7fL-LZ-HOr" secondAttribute="bottom" constant="5" id="Kgt-hC-NG4"/>
+                                    <constraint firstItem="bXd-MC-MN1" firstAttribute="leading" secondItem="MKu-Mc-8ph" secondAttribute="leading" id="gcj-73-BgD"/>
+                                    <constraint firstAttribute="height" constant="44" id="rZh-u2-89l"/>
+                                    <constraint firstItem="bXd-MC-MN1" firstAttribute="top" secondItem="MKu-Mc-8ph" secondAttribute="top" id="sEA-Uq-l1q"/>
+                                    <constraint firstAttribute="trailing" secondItem="7fL-LZ-HOr" secondAttribute="trailing" constant="6" id="wOB-ja-tVU"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRI-u5-Fm4">
+                                <rect key="frame" x="40" y="689" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="ZOE-4O-3Q4"/>
+                                    <constraint firstAttribute="width" constant="24" id="cNt-7C-SYD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" image="icn_menu.png"/>
+                                <connections>
+                                    <action selector="onMenu:" destination="d4X-eo-5IS" eventType="touchUpInside" id="VJA-5P-3FK"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e3W-BH-Dae">
+                                <rect key="frame" x="40" y="638" width="469" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njb-n8-BEv">
+                                        <rect key="frame" x="8" y="0.0" width="46" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="ons-1g-6Ld"/>
+                                            <constraint firstAttribute="height" constant="45" id="pox-DE-b4M"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                        <state key="normal" title=" " image="icn_spaceinvadersleft.png"/>
+                                        <connections>
+                                            <action selector="onSpaceInvadersLeft:" destination="d4X-eo-5IS" eventType="touchUpInside" id="Fcg-EL-iLO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUi-mr-2oL">
+                                        <rect key="frame" x="415" y="0.0" width="46" height="45"/>
+                                        <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                        <state key="normal" title=" " image="icn_spaceinvadersright.png"/>
+                                        <connections>
+                                            <action selector="onSpaceInvadersRight:" destination="d4X-eo-5IS" eventType="touchUpInside" id="grY-PN-EHF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqv-8B-ARL">
+                                        <rect key="frame" x="212.33333333333334" y="0.0" width="46.000000000000028" height="45"/>
+                                        <state key="normal" image="icn_spaceinvadersfocus.png"/>
+                                        <connections>
+                                            <action selector="onSpaceInvadersShot:" destination="d4X-eo-5IS" eventType="touchUpInside" id="UDJ-AO-E2o"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="nqv-8B-ARL" firstAttribute="bottom" secondItem="njb-n8-BEv" secondAttribute="bottom" id="1OI-p5-K4S"/>
+                                    <constraint firstItem="nqv-8B-ARL" firstAttribute="leading" secondItem="njb-n8-BEv" secondAttribute="trailing" priority="750" constant="133.33333333333334" id="9wi-aj-VwE"/>
+                                    <constraint firstItem="PUi-mr-2oL" firstAttribute="leading" secondItem="nqv-8B-ARL" secondAttribute="trailing" priority="750" constant="131.66666666666666" id="AKc-QT-1IZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="PUi-mr-2oL" secondAttribute="trailing" constant="8" id="Do5-q5-3RN"/>
+                                    <constraint firstItem="nqv-8B-ARL" firstAttribute="width" secondItem="njb-n8-BEv" secondAttribute="width" id="JxR-Oz-F3F"/>
+                                    <constraint firstItem="PUi-mr-2oL" firstAttribute="top" secondItem="njb-n8-BEv" secondAttribute="top" id="K3N-Mw-1La"/>
+                                    <constraint firstItem="nqv-8B-ARL" firstAttribute="centerX" secondItem="e3W-BH-Dae" secondAttribute="centerX" id="TMR-Hu-PG8"/>
+                                    <constraint firstItem="PUi-mr-2oL" firstAttribute="bottom" secondItem="njb-n8-BEv" secondAttribute="bottom" id="UuW-Dq-bTA"/>
+                                    <constraint firstAttribute="height" constant="45" id="Uuw-nu-67H"/>
+                                    <constraint firstItem="njb-n8-BEv" firstAttribute="leading" secondItem="e3W-BH-Dae" secondAttribute="leading" constant="8" id="YWW-bj-9py"/>
+                                    <constraint firstItem="PUi-mr-2oL" firstAttribute="width" secondItem="njb-n8-BEv" secondAttribute="width" id="aJv-xX-hBm"/>
+                                    <constraint firstItem="njb-n8-BEv" firstAttribute="top" secondItem="e3W-BH-Dae" secondAttribute="top" id="ms4-it-nVx"/>
+                                    <constraint firstAttribute="bottom" secondItem="njb-n8-BEv" secondAttribute="bottom" id="wY5-HT-h9D"/>
+                                    <constraint firstItem="nqv-8B-ARL" firstAttribute="top" secondItem="njb-n8-BEv" secondAttribute="top" id="zuA-Kd-SOi"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUd-ap-wIF">
+                                <rect key="frame" x="486" y="689" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="gUK-gS-GZO"/>
+                                    <constraint firstAttribute="width" constant="24" id="sVG-yn-4h7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" image="icn_reset.png"/>
+                                <connections>
+                                    <action selector="onReset:" destination="d4X-eo-5IS" eventType="touchUpInside" id="R85-ga-Cxe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nse-yG-JH7" firstAttribute="top" secondItem="PRI-u5-Fm4" secondAttribute="top" id="1E4-WS-qC3"/>
+                            <constraint firstItem="nse-yG-JH7" firstAttribute="leading" secondItem="PRI-u5-Fm4" secondAttribute="trailing" constant="8" id="1c9-rq-fVq"/>
+                            <constraint firstAttribute="bottom" secondItem="ALw-cj-tPP" secondAttribute="bottom" id="6bI-C3-oHa"/>
+                            <constraint firstItem="ALw-cj-tPP" firstAttribute="leading" secondItem="ehT-GF-OgC" secondAttribute="leading" id="DYB-M1-GXr"/>
+                            <constraint firstItem="cUd-ap-wIF" firstAttribute="top" secondItem="PRI-u5-Fm4" secondAttribute="top" id="H9d-xg-bQe"/>
+                            <constraint firstItem="MKu-Mc-8ph" firstAttribute="trailing" secondItem="ehT-GF-OgC" secondAttribute="trailing" id="LQ4-TV-aO0"/>
+                            <constraint firstAttribute="trailing" secondItem="cUd-ap-wIF" secondAttribute="trailing" constant="40" id="UBf-HO-Ps6"/>
+                            <constraint firstItem="MKu-Mc-8ph" firstAttribute="top" secondItem="PRI-u5-Fm4" secondAttribute="bottom" constant="6" id="UXP-fa-kzb"/>
+                            <constraint firstItem="cUd-ap-wIF" firstAttribute="bottom" secondItem="PRI-u5-Fm4" secondAttribute="bottom" id="V7Q-mY-N0E"/>
+                            <constraint firstItem="cUd-ap-wIF" firstAttribute="leading" secondItem="nse-yG-JH7" secondAttribute="trailing" constant="6" id="YJM-eI-VRJ"/>
+                            <constraint firstItem="ALw-cj-tPP" firstAttribute="top" secondItem="ehT-GF-OgC" secondAttribute="top" id="YQ6-1C-HCw"/>
+                            <constraint firstItem="ALw-cj-tPP" firstAttribute="trailing" secondItem="ehT-GF-OgC" secondAttribute="trailing" id="bpd-fh-K5c"/>
+                            <constraint firstItem="nse-yG-JH7" firstAttribute="top" secondItem="e3W-BH-Dae" secondAttribute="bottom" constant="6" id="d28-3f-seh"/>
+                            <constraint firstItem="nse-yG-JH7" firstAttribute="bottom" secondItem="PRI-u5-Fm4" secondAttribute="bottom" id="eBI-cI-aOd"/>
+                            <constraint firstItem="e3W-BH-Dae" firstAttribute="leading" secondItem="ehT-GF-OgC" secondAttribute="leading" constant="40" id="fqJ-cT-ZyT"/>
+                            <constraint firstItem="6cV-cA-ujm" firstAttribute="top" secondItem="MKu-Mc-8ph" secondAttribute="bottom" constant="15" id="neb-hw-aMB"/>
+                            <constraint firstItem="PRI-u5-Fm4" firstAttribute="leading" secondItem="ehT-GF-OgC" secondAttribute="leading" constant="40" id="t2y-fi-2qC"/>
+                            <constraint firstItem="MKu-Mc-8ph" firstAttribute="leading" secondItem="ehT-GF-OgC" secondAttribute="leading" id="tgl-Fc-7wR"/>
+                            <constraint firstAttribute="trailing" secondItem="e3W-BH-Dae" secondAttribute="trailing" constant="41" id="yn5-ca-fkQ"/>
+                            <constraint firstItem="cUd-ap-wIF" firstAttribute="bottom" secondItem="nse-yG-JH7" secondAttribute="bottom" id="zK9-tO-thf"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="550" height="812"/>
+                    <connections>
+                        <outlet property="btnDisablePlaneDetection" destination="7fL-LZ-HOr" id="v7A-ie-ffh"/>
+                        <outlet property="cstMenu" destination="neb-hw-aMB" id="JJM-1E-S0z"/>
+                        <outlet property="lblTrackingInfo" destination="nse-yG-JH7" id="Yve-Vb-MaM"/>
+                        <outlet property="scnView" destination="ALw-cj-tPP" id="L8h-IC-jpX"/>
+                        <outlet property="scvContainer" destination="bXd-MC-MN1" id="ila-HU-Od7"/>
+                        <outlet property="spaceInvadersController" destination="e3W-BH-Dae" id="jws-lJ-HQX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CY8-Au-JF2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.200000000000003" y="370.19704433497537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icn_box.png" width="128" height="128"/>
+        <image name="icn_box_gravity.png" width="128" height="128"/>
+        <image name="icn_box_light.png" width="128" height="128"/>
+        <image name="icn_earth.png" width="128" height="128"/>
+        <image name="icn_menu.png" width="120" height="120"/>
+        <image name="icn_options.png" width="128" height="128"/>
+        <image name="icn_planedetection.png" width="128" height="128"/>
+        <image name="icn_reset.png" width="128" height="128"/>
+        <image name="icn_spaceinvaders.jpg" width="640" height="480"/>
+        <image name="icn_spaceinvadersfocus.png" width="128" height="128"/>
+        <image name="icn_spaceinvadersleft.png" width="128" height="128"/>
+        <image name="icn_spaceinvadersright.png" width="128" height="128"/>
+        <image name="icn_statistics.png" width="128" height="128"/>
+        <image name="icn_strangerthings.png" width="512" height="512"/>
+        <image name="icn_tucano.png" width="474" height="474"/>
+    </resources>
+</document>
