@@ -31,7 +31,7 @@ extension GameViewController: ARSCNViewDelegate {
         let configuration = ARWorldTrackingConfiguration()
         
         if disablePlaneDetection == false {
-        configuration.planeDetection = .horizontal
+        configuration.planeDetection = [.horizontal, .vertical]
         }
         
         configuration.isLightEstimationEnabled = true
