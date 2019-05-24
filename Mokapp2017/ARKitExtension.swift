@@ -199,6 +199,8 @@ extension GameViewController: ARSCNViewDelegate {
                 return "Limited tracking: insufficient details"
             case .initializing:
                 return "....initializing"
+            case .relocalizing:
+                return "....relocalizing"
             }
         default:
            break

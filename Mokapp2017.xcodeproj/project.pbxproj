@@ -73,7 +73,7 @@
 		6466781C1FBF68640095EAEB /* spaceinvaders_explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_explosion.wav; sourceTree = "<group>"; };
 		6466781D1FBF68640095EAEB /* spaceinvaders_fastinvader3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_fastinvader3.wav; sourceTree = "<group>"; };
 		6466781E1FBF68640095EAEB /* spaceinvaders_shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceinvaders_shoot.wav; sourceTree = "<group>"; };
-		6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mokapp2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6485A7FE1FB24E6A003AC8CC /* Mokapp AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mokapp AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6485A8011FB24E6A003AC8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6485A8031FB24E6A003AC8CC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		6485A8051FB24E6A003AC8CC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		6485A7FF1FB24E6A003AC8CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */,
+				6485A7FE1FB24E6A003AC8CC /* Mokapp AR.app */,
 			);
 			name = Products;
 			path = ..;
@@ -232,7 +232,7 @@
 			);
 			name = Mokapp2017;
 			productName = Mokapp2017;
-			productReference = 6485A7FE1FB24E6A003AC8CC /* Mokapp2017.app */;
+			productReference = 6485A7FE1FB24E6A003AC8CC /* Mokapp AR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -468,12 +468,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44R9293238;
+				DEVELOPMENT_TEAM = B629US47XJ;
 				INFOPLIST_FILE = Mokapp2017/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.Mokapp2017World;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.MokappWorld;
+				PRODUCT_NAME = "Mokapp AR";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -484,12 +484,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44R9293238;
+				DEVELOPMENT_TEAM = B629US47XJ;
 				INFOPLIST_FILE = Mokapp2017/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.Mokapp2017World;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.nexor.MokappWorld;
+				PRODUCT_NAME = "Mokapp AR";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
