@@ -75,8 +75,6 @@ extension GameViewController: ARSCNViewDelegate {
             switch anchor {
             case let a where a is ARPlaneAnchor:
                 let planeAnchor = a as! ARPlaneAnchor
-                #if DEBUG
-                    
                     let position = SCNVector3(planeAnchor.center.x, 0, planeAnchor.center.z)
                     let size = CGSize(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
                     
@@ -97,7 +95,6 @@ extension GameViewController: ARSCNViewDelegate {
                     
                     self.existingNodes = [anchor.identifier.uuidString : planeNode]
                     node.addChildNode(planeNode)
-                #endif
                 break
             case let a where a is ARFaceAnchor:
                 #if DEBUG
